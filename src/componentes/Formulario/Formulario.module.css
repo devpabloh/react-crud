@@ -1,0 +1,80 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 80%;
+
+    & div{
+        position: relative;
+        padding: 15px 0 0;
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    & div input, div input::placeholder{
+        width: 100%;
+        border: 0;
+        border-bottom: 2px solid var(--titulo-cor);
+        outline: 0;
+        color: var(--titulo-cor);
+        padding: 7px 0;
+        background-color: transparent;
+        transition: border-color 0.2s;
+    }
+
+    & div label{
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    }
+
+    & div input:focus{
+        padding-bottom: 6px;  
+        border-width: 3px;
+        border-image: linear-gradient(to left,var(--segunda-cor),var(--titulo-cor));
+        border-image-slice: 1;
+    }
+}
+
+.form .button{
+    display: flex;
+}
+
+
+
+.buttonBox{
+    margin: 0 20px 40px;
+    position:relative;
+    max-width: 200px;
+    min-width: 150px;
+    flex: 20%;
+}
+
+.buttonBox button{
+    width:100%;
+    height:80px;
+    position:relative;
+    background: var(--segunda-cor);
+    color:white;
+    letter-spacing:1px;
+    border:none;
+    border-radius: 10px;
+    font-size:var(--tamanho-texto);
+    outline:none;
+    cursor: pointer;
+}
+
+.buttonBox button:hover{
+    color: #FFFFFF;
+    opacity: 0.9;
+    box-shadow: rgba(31, 100, 255, 0.4) -5px 5px, rgba(31, 100, 255, 0.3) -10px 10px, rgba(31, 100, 255, 0.2) -15px 15px, rgba(31, 100, 255, 0.1) -20px 20px, rgba(31, 100, 255, 0.05) -25px 25px;
+}
+
+
+
+
+

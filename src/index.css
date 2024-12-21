@@ -1,0 +1,42 @@
+:root {
+  --primeira-cor: rgb(31, 100, 255);
+  --segunda-cor: #639FFF;
+
+  --font-principal: "Figtree", serif;
+  --titulo-cor: #0C2856;
+  --tamanho-titulo-principal: 2rem;
+  --tamanho-texto: 1.5rem;
+
+  font-family: var(--font-principal);
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1{
+  font-size: 32px;
+  font-size: var(--tamanho-titulo-principal);
+}
+
+a {
+  text-decoration: inherit  ;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  min-height: 100vh;
+
+  font-size: var(--tamanho-texto);
+  color: var(--titulo-cor);
+}

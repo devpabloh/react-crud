@@ -1,0 +1,14 @@
+.footer{
+    background-color: var(--primeira-cor);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 150px;
+    border-radius: 20px;
+    padding: 20px 20px 20px 0;
+    margin-top: 40px;
+}
+
+.footer img{
+    height: 150px;
+}

@@ -1,0 +1,9 @@
+.header{
+    background-color: var(--primeira-cor);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 150px;
+    border-radius: 20px;
+    padding: 20px 0 20px 20px;
+}
