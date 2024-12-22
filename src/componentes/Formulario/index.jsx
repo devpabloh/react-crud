@@ -43,6 +43,7 @@ const Formulario = () => {
           <div>
             <label htmlFor="responsavel">Responsável: </label>
               <input
+                required
                 type="text"
                 id="responsavel"
                 name="responsavel"
@@ -57,6 +58,7 @@ const Formulario = () => {
           <div>
               <label htmlFor="projeto">Projeto: </label>
               <input
+                required
                 type="text"
                 id="projeto"
                 name="projeto"
@@ -69,6 +71,7 @@ const Formulario = () => {
         <div>
             <label htmlFor="dataDeInicio">Data de Inicio: </label>
             <input
+                required
                 type="date"
                 id="dataDeInicio"
                 name="dataDeInicio"
@@ -80,6 +83,7 @@ const Formulario = () => {
           <div>
             <label htmlFor="ultimaAtualizacao">Última atualização: </label>
               <input
+                required
                 id="ultimaAtualizacao"
                 name="ultimaAtualizacao"
                 type="date"
